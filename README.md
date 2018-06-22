@@ -1,7 +1,7 @@
 # unity-frankxx
 
 This project demonstrates how to integrate multiple Platform Plugins on the Unity platform.
-This one uses the AdMob Platform Plugin combined with the AerServ Platform Plugin. 
+This one uses the AdMob Platform Plugin combined with the AerServ Platform Plugin as primary. 
 
 This path is typically used with Admob, MoPub, and other larger ad networks that don't just want to use Unity Ads.
 A common use case is to display banner ads in-game. Unity makes it difficult / does not directly support banner ads.
@@ -19,16 +19,16 @@ By not taking advantage of either Admob or AerServ's ability to mediate internal
 
 
 
-AerServ Unity Platform Plugin:
+## AerServ Unity Platform Plugin:
 
 The Unity Plugin is a .unitypackage file that is essentially adapter code (C#) that will extract and speak with the relevant AerServ classes. 
 https://support.aerserv.com/hc/en-us/articles/203226480?
 
-AdMob Unity Platform Plugin:
+## AdMob Unity Platform Plugin:
 
 https://developers.google.com/admob/unity/start
 
-Notes:
+## Notes:
 
 SampleApp.cs demonstrates most of this function. 
 
